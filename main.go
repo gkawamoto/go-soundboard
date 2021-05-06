@@ -20,7 +20,7 @@ import (
 )
 
 type data struct {
-	Sounds map[string]string
+	Sounds map[string]string `json:"sounds"`
 }
 
 func main() {
